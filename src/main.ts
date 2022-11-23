@@ -1,4 +1,7 @@
-// ENTRY POINT
+// ENTRY POINT of nest.js application (when you start dev server / build application)
+// gets compiled to javascript
+
+// uses modularity
 
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
